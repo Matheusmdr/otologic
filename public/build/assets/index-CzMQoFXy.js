@@ -1,0 +1,1 @@
+import{r as s,c as u}from"./app-BdXrDdWp.js";import{f as e}from"./react-icons.esm-CRP0ZowX.js";var f=u.useId||(()=>{}),c=0;function d(t){const[r,a]=s.useState(f());return e(()=>{t||a(o=>o??String(c++))},[t]),t||(r?`radix-${r}`:"")}export{d as u};
