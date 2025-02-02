@@ -5,33 +5,33 @@ import { Fragment, useState } from 'react';
 
 const menuItems = [
   {
-    title: 'Agendar Exame',
-    href: '/unidades',
+    title: 'Agendamento',
+    href: '/agendamento',
     isExternal: true,
   },
   {
-    title: 'Resultados de Exames',
-    href: 'https://pacs.clinicavidaradiologia.com.br/login',
-    isExternal: true,
+    title: 'Nossa Clínica',
+    href: '/nossa-clinica',
+    isExternal: false,
   },
   {
     title: 'Nossos Exames',
-    href: '/exames',
-    isExternal: false,
-  },
-  {
-    title: 'Convênios Atendidos',
-    href: '/convenios',
-    isExternal: false,
-  },
-  {
-    title: 'Nossas Unidades',
-    href: '/unidades',
+    href: '/nossos-exames',
     isExternal: false,
   },
   {
     title: 'Corpo Clínico',
     href: '/corpo-clinico',
+    isExternal: false,
+  },
+  {
+    title: 'Notícias',
+    href: '/noticias',
+    isExternal: false,
+  },
+  {
+    title: 'Convênios Atendidos',
+    href: '/convenios',
     isExternal: false,
   },
 ];

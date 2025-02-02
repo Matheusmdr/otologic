@@ -34,80 +34,87 @@ export default function Page() {
               CLIQUE NA FOTO PARA AMPLIAR
             </span>
           </div>
-          <div className="flex flex-col items-center gap-4">
+          <div className="mx-auto flex w-11/12 flex-col items-center gap-4">
             <ExapandableImage
               imgSrc="/imgs/nossa-clinica/1.png"
               alt="Nossa Clínica 1"
-              className="mx-auto max-w-7xl"
+              className="mx-auto w-full max-w-7xl"
             />
-            <div className="flex gap-4">
+
+            <div className="flex justify-center gap-2 md:gap-4">
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/2.png"
                 alt="Nossa Clínica 2"
-                className="mx-auto max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/3.png"
                 alt="Nossa Clínica 3"
-                className="mx-auto h-full max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
             </div>
+
             <ExapandableImage
               imgSrc="/imgs/nossa-clinica/4.png"
               alt="Nossa Clínica 4"
-              className="mx-auto max-w-7xl"
+              className="mx-auto w-full max-w-7xl"
             />
-            <div className="flex gap-4">
+
+            <div className="flex justify-center gap-2 md:gap-4">
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/5.png"
                 alt="Nossa Clínica 5"
-                className="mx-auto max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/6.png"
                 alt="Nossa Clínica 6"
-                className="mx-auto h-full max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
             </div>
-            <div className="flex gap-4">
+
+            <div className="flex justify-center gap-2 md:gap-4">
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/7.png"
                 alt="Nossa Clínica 7"
-                className="mx-auto max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/8.png"
                 alt="Nossa Clínica 8"
-                className="mx-auto h-full max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
             </div>
+
             <ExapandableImage
               imgSrc="/imgs/nossa-clinica/9.png"
               alt="Nossa Clínica 9"
-              className="mx-auto h-full max-w-7xl"
+              className="mx-auto w-full max-w-7xl"
             />
-            <div className="flex gap-4">
+
+            <div className="flex justify-center gap-2 md:gap-4">
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/10.png"
                 alt="Nossa Clínica 10"
-                className="mx-auto max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/11.png"
                 alt="Nossa Clínica 11"
-                className="mx-auto h-full max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
             </div>
-            <div className="flex gap-4">
+
+            <div className="flex justify-center gap-2 md:gap-4">
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/12.png"
                 alt="Nossa Clínica 12"
-                className="mx-auto max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
               <ExapandableImage
                 imgSrc="/imgs/nossa-clinica/13.png"
                 alt="Nossa Clínica 13"
-                className="mx-auto h-full max-w-7xl"
+                className="w-full max-w-sm md:max-w-7xl"
               />
             </div>
           </div>

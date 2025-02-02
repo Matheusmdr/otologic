@@ -17,8 +17,11 @@ function ExapandableImage({ imgSrc, className, alt }: ExapandableImageProps) {
           alt={alt}
         />
       </DialogTrigger>
-      <DialogContent className="!max-w-fit">
-        <img src={imgSrc} className={cn('cursor-pointer', className)} />
+      <DialogContent className="w-full max-w-[90vw] p-2">
+        <img
+          src={imgSrc}
+          className={cn('h-auto max-w-full cursor-pointer', className)}
+        />
       </DialogContent>
     </Dialog>
   );
