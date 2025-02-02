@@ -7,7 +7,7 @@ import { ChevronRight } from 'lucide-react';
 export default function Page() {
   return (
     <MainLayout>
-      <Head title="Nossas Unidades" />
+      <Head title="Agendamento" />
       <main className="space-y-10 bg-white py-10 md:space-y-20 md:py-20">
         <section className="flex flex-col gap-10">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
