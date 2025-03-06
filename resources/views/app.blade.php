@@ -5,26 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title inertia>{{ config('app.name', 'Vida Radiologia') }}</title>
+    <title inertia>{{ config('app.name', 'Otologic - Otorrinolaringologia e Audiologia') }}</title>
 
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-W72HW9CC');
-    </script>
-    <!-- End Google Tag Manager -->
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,23 +14,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
-    <meta name="description" content="A Vida Radiologia conta com equipamentos de última geração, uma equipe de colaboradores treinados e um corpo clínico formado por profissionais especializados e altamente capacitados para oferecer um serviço de excelência em exames de imagens.">
+    <meta name="description" content="A Clínica Otologic é referência em saúde e bem-estar, especializada em Otorrinolaringologia e Audiologia. Oferecemos atendimento completo e personalizado, abrangendo consultas clínicas para crianças e adultos, cirurgias e exames especializados.">
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="website" />
     <meta
         property="og:title"
-        content="Vida Radiologia" />
+        content="Otologic - Otorrinolaringologia e Audiologia" />
     <meta
         property="og:description"
-        content="A Vida Radiologia conta com equipamentos de última geração, uma equipe de colaboradores treinados e um corpo clínico formado por profissionais especializados e altamente capacitados para oferecer um serviço de excelência em exames de imagens." />
+        content="A Clínica Otologic é referência em saúde e bem-estar, especializada em Otorrinolaringologia e Audiologia. Oferecemos atendimento completo e personalizado, abrangendo consultas clínicas para crianças e adultos, cirurgias e exames especializados." />
 
-    <meta property="og:site_name" content="Vida Radiologia" />
+    <meta property="og:site_name" content="Otologic - Otorrinolaringologia e Audiologia" />
     <meta
         name="twitter:title"
-        content="Vida Radiologia" />
+        content="Otologic - Otorrinolaringologia e Audiologia" />
     <meta
         name="twitter:description"
-        content="A Vida Radiologia conta com equipamentos de última geração, uma equipe de colaboradores treinados e um corpo clínico formado por profissionais especializados e altamente capacitados para oferecer um serviço de excelência em exames de imagens.." />
+        content="A Clínica Otologic é referência em saúde e bem-estar, especializada em Otorrinolaringologia e Audiologia. Oferecemos atendimento completo e personalizado, abrangendo consultas clínicas para crianças e adultos, cirurgias e exames especializados." />
     <meta name="twitter:card" content="summary" />
 
     <!-- Scripts -->
@@ -59,10 +41,6 @@
 </head>
 
 <body class="font-sans antialiased">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W72HW9CC"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     @inertia
 </body>
 

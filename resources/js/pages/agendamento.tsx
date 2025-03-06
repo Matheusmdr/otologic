@@ -38,7 +38,7 @@ export default function Page() {
                 18 99681-2001
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=5518996812001&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20agendamento"
+                href="tel:+551821012001"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="inline-flex items-center justify-center gap-2 text-lg font-bold text-blue-primary"
@@ -68,7 +68,7 @@ export default function Page() {
           </div>
         </section>
         <section className="flex justify-center">
-          <Link href="/noticias" className="self-center">
+          <Link href="/" className="self-center">
             <Button className="w-fit rounded-3xl border border-blue-primary bg-blue-primary px-2 py-1 text-base font-normal text-white hover:bg-white hover:text-blue-primary">
               <ChevronRight />
               Voltar para a home

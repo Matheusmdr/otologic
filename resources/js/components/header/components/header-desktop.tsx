@@ -17,7 +17,7 @@ function HeaderDesktop({ menuItems }: HeaderDesktopProps) {
         <Link href="/">
           <img
             src="/imgs/otologic-white.svg"
-            alt="Logo Vida Radiologia"
+            alt="Logo Otologic"
             className="w-80"
           />
         </Link>

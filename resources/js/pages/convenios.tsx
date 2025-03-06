@@ -72,7 +72,7 @@ export default function Page() {
           </div>
         </section>
         <section className="flex justify-center">
-          <Link href="/noticias" className="self-center">
+          <Link href="/" className="self-center">
             <Button className="w-fit rounded-3xl border border-blue-primary bg-blue-primary px-2 py-1 text-base font-normal text-white hover:bg-white hover:text-blue-primary">
               <ChevronRight />
               Voltar para a home

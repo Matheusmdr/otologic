@@ -8,7 +8,7 @@ interface WhatsappButtonProps {
 
 function WhatsappButton({ className }: WhatsappButtonProps) {
   return (
-    <Link href="/agendamento" target="_blank" rel="noreferrer noopener">
+    <Link href="/agendamento">
       <Button
         className={cn(
           'rounded-3xl bg-white text-xl font-bold text-blue-primary hover:bg-white',

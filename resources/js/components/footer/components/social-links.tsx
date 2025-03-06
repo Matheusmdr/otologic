@@ -1,25 +1,25 @@
 const socialLinks = [
   {
     text: 'Phone',
-    url: 'https://www.instagram.com/_vidaradiologia/',
+    url: 'tel:+551821012001',
     icon: '/imgs/social/phone.svg',
     alt: 'Ícone do telefone.',
   },
   {
     text: 'Whatsapp',
-    url: 'https://www.instagram.com/_vidaradiologia/',
+    url: 'https://wa.me/5518996812001',
     icon: '/imgs/social/whatsapp.svg',
     alt: 'Ícone do Whatsapp.',
   },
   {
     text: 'Instagram',
-    url: 'https://www.instagram.com/_vidaradiologia/',
+    url: 'https://www.instagram.com/clinicaotologic/',
     icon: '/imgs/social/instagram.svg',
     alt: 'Ícone do Instagram.',
   },
   {
     text: 'Facebook',
-    url: 'https://www.facebook.com/UniVidasRedes/',
+    url: 'https://www.facebook.com/otologicpp/?locale=pt_BR',
     icon: '/imgs/social/facebook.svg',
     alt: 'Ícone do Facebook.',
   },

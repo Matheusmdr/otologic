@@ -13,45 +13,40 @@ function Footer() {
       <div className="mx-auto w-10/12 max-w-7xl space-y-6 py-10 md:w-11/12 md:space-y-14">
         <img
           src="/imgs/otologic-white.svg"
-          alt="Logo Vida Radiologia"
+          alt="Logo Otologic"
           className="max-w-[150px] md:max-w-[250px] lg:hidden"
         />
         <div className="mx-auto flex w-11/12 flex-row gap-4 md:flex-col md:gap-14">
           <div className="mx-auto flex w-full flex-col justify-center gap-4 md:max-w-3xl md:flex-row md:items-center">
             <img
               src="/imgs/otologic-white.svg"
-              alt="Logo Vida Radiologia"
+              alt="Logo Otologic"
               className="mx-auto hidden max-w-[150px] md:w-80 md:max-w-[350px] lg:block"
             />
             <div className="flex flex-col gap-2 text-[8px] font-bold text-white md:text-sm">
               <div className="flex flex-col justify-between gap-2 md:flex-row md:gap-4">
-                <a
-                  href="https://pacs.clinicavidaradiologia.com.br/login"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="hover:text-white/80"
-                >
+                <Link href="/agendamento" className="hover:text-white/80">
                   Agendamento
-                </a>
+                </Link>
                 <span className="hidden md:block">|</span>
-                <Link href="/exames" className="hover:text-white/80">
+                <Link href="/nossa-clinica" className="hover:text-white/80">
                   Nossa Clínica
                 </Link>
                 <span className="hidden md:block">|</span>
-                <Link href="/corpo-clinico" className="hover:text-white/80">
+                <Link href="/nossos-exames" className="hover:text-white/80">
                   Nossos Exames
                 </Link>
               </div>
               <div className="flex flex-col gap-2 md:flex-row md:gap-4">
-                <Link href="/unidades" className="hover:text-white/80">
+                <Link href="/corpo-clinico" className="hover:text-white/80">
                   Corpo Clínico
                 </Link>
                 <span className="hidden md:block">|</span>
-                <Link href="/convenios" className="hover:text-white/80">
+                <Link href="/noticias" className="hover:text-white/80">
                   Notícias
                 </Link>
                 <span className="hidden md:block">|</span>
-                <Link href="/fale-conosco" className="hover:text-white/80">
+                <Link href="/convenios" className="hover:text-white/80">
                   Convênios Atendidos
                 </Link>
               </div>

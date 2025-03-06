@@ -46,7 +46,7 @@ function HeaderMobile() {
           <img
             src="/imgs/otologic.svg"
             className="max-w-[210px]"
-            alt="Logo Vida Radiologia"
+            alt="Logo Otologic"
           />
         </Link>
         <Button
@@ -127,10 +127,18 @@ function HeaderMobile() {
                 Acompanhe nossas redes!
               </span>
               <div className="flex items-center justify-center gap-4">
-                <a href="#" target="_blank" rel="noreferrer noopener">
+                <a
+                  href="https://www.instagram.com/clinicaotologic/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img src="/imgs/social/instagram.svg" />
                 </a>
-                <a href="#" target="_blank" rel="noreferrer noopener">
+                <a
+                  href="https://www.facebook.com/otologicpp/?locale=pt_BR"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img src="/imgs/social/facebook.svg" />
                 </a>
               </div>

@@ -13,7 +13,7 @@ export function AdminHeader({ user }: Props) {
         <div className="space-x-4">
           <Link href="/admin">
             <img
-              src="/imgs/logo_branca.png"
+              src="/imgs/otologic-white.svg"
               alt="logo_branca.png"
               className="max-w-40 invert dark:invert-0"
             />
