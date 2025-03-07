@@ -39,7 +39,7 @@ export default function Page() {
                   Dra. Natalie Ravazzi
                 </span>
                 <span className="text-white">
-                Médica Otorrinolaringologista
+                  Médica Otorrinolaringologista
                 </span>
                 <span className="text-white">CRM/SP 95.612 | RQE 47.090</span>
               </div>
@@ -52,10 +52,10 @@ export default function Page() {
               />
               <div className="flex flex-col gap-1 border-b border-white pb-4 text-center sm:border-none sm:pb-0">
                 <span className="font-bold text-white">
-                Dra. Ana Júlia Peretti
+                  Dra. Ana Júlia Peretti
                 </span>
                 <span className="text-white">
-                Médica Otorrinolaringologista
+                  Médica Otorrinolaringologista
                 </span>
                 <span className="text-white">CRM/SP 151.000 | RQE 59.620</span>
               </div>
@@ -68,11 +68,9 @@ export default function Page() {
               />
               <div className="flex flex-col gap-1 border-b border-white pb-4 text-center sm:border-none sm:pb-0">
                 <span className="font-bold text-white">
-                Fga. Simone Ravazzi
+                  Fga. Simone Ravazzi
                 </span>
-                <span className="text-white">
-                Fonoaudióloga
-                </span>
+                <span className="text-white">Fonoaudióloga</span>
                 <span className="text-white">CRF 2/6276 | CRFF 3938/07</span>
               </div>
             </div>

@@ -14,31 +14,24 @@ function Carousel() {
       }}
       plugins={[
         Autoplay({
-          delay: 7000,
+          delay: 5000,
         }),
       ]}
     >
       <CarouselContent>
         <CarouselItem>
           <img
-            src="/imgs/fachada-otologic.png"
-            className="max-h-[650px] w-full object-cover"
+            src="/imgs/banners/Fachada-otologic-1.jpg"
+            className="max-h-[700px] w-full object-cover"
           />
         </CarouselItem>
         <CarouselItem>
           <img
-            src="/imgs/fachada-otologic.png"
-            className="max-h-[650px] w-full object-cover"
-          />
-        </CarouselItem>
-        <CarouselItem>
-          <img
-            src="/imgs/fachada-otologic.png"
-            className="max-h-[650px] w-full object-cover"
+            src="/imgs/banners/Fachada-otologic-2.jpg"
+            className="max-h-[700px] w-full object-cover"
           />
         </CarouselItem>
       </CarouselContent>
-      {/* <CarouselDots className="-translate-y-full" /> */}
     </CarouselUI>
   );
 }

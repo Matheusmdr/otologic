@@ -52,11 +52,8 @@ export default function Page({ banners, news }: Props) {
               </div>
 
               <p className="mx-auto max-w-2xl text-center text-base font-medium text-white">
-                A Clínica Otologic é referência em saúde e bem-estar,
-                especializada em Otorrinolaringologia e Audiologia. Oferecemos
-                atendimento completo e personalizado, abrangendo consultas
-                clínicas para crianças e adultos, cirurgias e exames
-                especializados.
+                Contamos com uma equipe de médicas e fonoaudióloga,
+                especialistas e altamente capacitadas para cuidar da sua saúde.
               </p>
 
               <div className="mx-auto grid w-full max-w-2xl grid-cols-3 divide-x divide-white">
