@@ -22,9 +22,9 @@ function HeaderDesktop({ menuItems }: HeaderDesktopProps) {
           />
         </Link>
         <WhatsappButton className="px-6" />
-        <a href="tel:+551821012001" target="_blank" rel="noreferrer noopener">
+        <a href="tel:+5518996812001" target="_blank" rel="noreferrer noopener">
           <Button className="rounded-3xl border-2 border-white bg-blue-primary text-xl text-white hover:bg-white hover:text-blue-primary">
-            18 2101-2001
+            18 99681-2001
           </Button>
         </a>
       </div>

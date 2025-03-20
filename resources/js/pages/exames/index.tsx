@@ -33,7 +33,7 @@ export default function Page({ exams }: Props) {
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+          <p className="mx-auto max-w-2xl px-4 text-center text-base font-medium text-[#757575]">
             Na Otologic, oferecemos uma ampla gama de exames especializados em
             Otorrinolaringologia e Audiologia, garantindo diagnósticos precisos
             e um atendimento de excelência.

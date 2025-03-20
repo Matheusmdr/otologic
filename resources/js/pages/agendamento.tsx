@@ -28,6 +28,9 @@ export default function Page() {
           </p>
           <div className="flex flex-col gap-10">
             <div className="flex w-full flex-col gap-4">
+              <span className="inline-flex items-center justify-center gap-2 text-lg font-bold text-blue-primary">
+                Ligações e Whatsapp
+              </span>
               <a
                 href="https://api.whatsapp.com/send?phone=5518996812001&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20agendamento"
                 target="_blank"
@@ -36,18 +39,6 @@ export default function Page() {
               >
                 <img src="/imgs/social/whatsapp-blue.svg" alt="Logo Whatsapp" />
                 18 99681-2001
-              </a>
-              <a
-                href="tel:+551821012001"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="inline-flex items-center justify-center gap-2 text-lg font-bold text-blue-primary"
-              >
-                <img
-                  src="/imgs/social/phone-blue.svg"
-                  alt="Icone de telefone"
-                />
-                18 2101-2001
               </a>
             </div>
 

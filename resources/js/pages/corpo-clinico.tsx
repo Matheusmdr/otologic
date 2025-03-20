@@ -18,11 +18,11 @@ export default function Page() {
               )}
             >
               <h2 className="mx-auto w-fit px-2 py-1 text-center text-xl font-bold text-white">
-                Nossa Clínica
+                Corpo Clínico
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl text-center text-base font-medium text-white">
+          <p className="mx-auto max-w-2xl px-4 text-center text-base font-medium text-white">
             Na Otologic, contamos com uma equipe de especialistas em
             otorrinolaringologia e audiologia, altamente qualificada e dedicada
             ao cuidado integral da sua saúde.

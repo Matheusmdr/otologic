@@ -1,11 +1,5 @@
 const socialLinks = [
   {
-    text: 'Phone',
-    url: 'tel:+551821012001',
-    icon: '/imgs/social/phone.svg',
-    alt: 'Ícone do telefone.',
-  },
-  {
     text: 'Whatsapp',
     url: 'https://wa.me/5518996812001',
     icon: '/imgs/social/whatsapp.svg',

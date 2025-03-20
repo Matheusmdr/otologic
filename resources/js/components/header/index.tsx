@@ -3,7 +3,7 @@ import { HeaderMobile } from './components/header-mobile';
 
 const menuItems = [
   {
-    title: 'Nossa Clinica',
+    title: 'Nossa Clínica',
     href: '/nossa-clinica',
     isExternal: false,
   },

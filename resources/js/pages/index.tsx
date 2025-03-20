@@ -77,7 +77,7 @@ export default function Page({ banners, news }: Props) {
                 </div>
               </div>
               <div className="flex justify-center">
-                <Link href="/convenios" className="self-center">
+                <Link href="/nossa-clinica" className="self-center">
                   <Button className="w-fit rounded-3xl border border-blue-primary bg-blue-primary px-2 py-1 text-base font-bold text-white hover:bg-white hover:text-blue-primary">
                     Conheça nossa clínica
                   </Button>
