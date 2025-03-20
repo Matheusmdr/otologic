@@ -14,7 +14,7 @@
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/components/carousel/index.tsx": [
-    "/build/assets/index-B-mUFFDa.js"
+    "/build/assets/index-CgnLIsO1.js"
   ],
   "resources/js/components/data-table/columns/banners-columns.tsx": [
     "/build/assets/index-DgqpNufH.js"
@@ -108,13 +108,13 @@
     "/build/assets/main-layout-CBkoy-c-.js"
   ],
   "resources/js/components/hero-banner/index.tsx": [
-    "/build/assets/index-B-mUFFDa.js"
+    "/build/assets/index-CgnLIsO1.js"
   ],
   "resources/js/components/input-error.tsx": [
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/components/news/index.tsx": [
-    "/build/assets/index-B-mUFFDa.js"
+    "/build/assets/index-CgnLIsO1.js"
   ],
   "resources/js/components/side-nav/components/nav.tsx": [
     "/build/assets/authenticated-layout-OMET_1z0.js"
@@ -138,10 +138,10 @@
     "/build/assets/button-weNgVMLy.js"
   ],
   "resources/js/components/ui/card.tsx": [
-    "/build/assets/index-B-mUFFDa.js"
+    "/build/assets/index-CgnLIsO1.js"
   ],
   "resources/js/components/ui/carousel.tsx": [
-    "/build/assets/index-B-mUFFDa.js"
+    "/build/assets/index-CgnLIsO1.js"
   ],
   "resources/js/components/ui/checkbox.tsx": [
     "/build/assets/checkbox-DyFoBjLW.js"
@@ -288,7 +288,7 @@
     "/build/assets/index-DP7MqHc9.js"
   ],
   "resources/js/pages/index.tsx": [
-    "/build/assets/index-B-mUFFDa.js"
+    "/build/assets/index-CgnLIsO1.js"
   ],
   "resources/js/pages/nossa-clinica.tsx": [
     "/build/assets/nossa-clinica-DdkCgYCI.js"
@@ -297,7 +297,7 @@
     "/build/assets/index-LTEetzYw.js"
   ],
   "resources/js/pages/noticias/noticia/index.tsx": [
-    "/build/assets/index-DF4gMura.js"
+    "/build/assets/index-B2BOFSVX.js"
   ],
   "resources/js/ssr.tsx": [],
   "vendor/tightenco/ziggy/dist/index.js": []

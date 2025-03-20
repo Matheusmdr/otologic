@@ -25,7 +25,7 @@ function News({ latestNews }: NewsProps) {
             className="max-h-44 max-w-44 basis-1/2"
             alt={news.title}
           />
-          <CardContent className="flex basis-1/2 flex-col gap-1 bg-white px-2 py-3 md:gap-4 md:py-4">
+          <CardContent className="flex basis-1/2 flex-col justify-between gap-1 bg-white px-2 py-3 md:gap-4 md:py-4">
             <span className="text-base text-[#757575]">
               {format(new Date(news.created_at), 'PP', { locale: ptBR })}
             </span>

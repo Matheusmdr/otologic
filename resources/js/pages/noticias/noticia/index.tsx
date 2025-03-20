@@ -54,7 +54,7 @@ export default function Page({ news }: Props) {
                 className="mx-auto w-10/12 rounded-xl md:max-w-[600px]"
               />
               <div
-                className="[&_h2]:font-bold[&_h3]:text-base [&_h5]:font-bold[&_h6]:text-base space-y-4 text-sm font-normal text-[#757575] [&_h1]:text-base [&_h1]:font-bold [&_h2]:text-base [&_h3]:font-bold [&_h4]:text-base [&_h4]:font-bold [&_h5]:text-base [&_h6]:font-bold [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:text-[#757575]"
+                className="[&_h2]:font-bold[&_h3]:text-base [&_h5]:font-bold[&_h6]:text-base space-y-4 text-sm font-normal text-[#757575] md:!text-lg [&_h1]:text-base [&_h1]:font-bold [&_h2]:text-base [&_h3]:font-bold [&_h4]:text-base [&_h4]:font-bold [&_h5]:text-base [&_h6]:font-bold [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:text-[#757575]"
                 dangerouslySetInnerHTML={{ __html: news.body_2 }}
               />
             </div>
