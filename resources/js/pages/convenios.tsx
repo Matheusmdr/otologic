@@ -47,6 +47,7 @@ export default function Page() {
         <section className="flex flex-col gap-10">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
             <div
+              data-aos="fade-up"
               className={cn(
                 buttonVariants({ variant: 'default' }),
                 'mx-auto w-fit rounded-full border !border-blue-primary !bg-transparent px-4 py-1',
@@ -57,16 +58,22 @@ export default function Page() {
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]"
+          >
             Atendemos os mais diversos convênios de saúde.
           </p>
           <div className="mx-auto grid w-10/12 max-w-5xl grid-cols-2 place-items-center items-center justify-center justify-items-center gap-12 md:grid-cols-4 md:gap-28">
-            {healthInsurances.map((healthInsurance) => (
+            {healthInsurances.map((healthInsurance, index) => (
               <img
                 key={healthInsurance.title}
                 src={healthInsurance.iconSrc}
                 alt={healthInsurance.title}
                 className="max-h-40 w-auto md:max-h-14"
+                data-aos="fade-up"
+                data-aos-delay={100 * index}
               />
             ))}
           </div>

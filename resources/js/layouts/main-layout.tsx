@@ -3,9 +3,15 @@ import { Header } from '@/components/header';
 import { buttonVariants } from '@/components/ui/button';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
-import { PropsWithChildren } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { PropsWithChildren, useEffect } from 'react';
 
 function MainLayout({ children }: PropsWithChildren) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Header />

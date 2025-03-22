@@ -43,6 +43,7 @@ export default function Page({ news }: Props) {
           <div className="mx-auto flex w-11/12 max-w-5xl flex-col justify-center gap-2 md:gap-6">
             <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
               <div
+                data-aos="fade-up"
                 className={cn(
                   buttonVariants({ variant: 'default' }),
                   'mx-auto w-fit rounded-full border !border-blue-primary !bg-transparent px-4 py-1',
@@ -53,18 +54,26 @@ export default function Page({ news }: Props) {
                 </h2>
               </div>
             </div>
-            <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]"
+            >
               Fique por dentro de todas as notícias sobre cuidados com a sua
               saúde!
             </p>
             <div>
-              {data.map((newsItem) => (
+              {data.map((newsItem, index) => (
                 <Fragment key={newsItem.id}>
-                  <div className="flex flex-row items-center gap-4 py-4">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-delay={100 * index}
+                    className="flex flex-row items-center gap-4 py-4"
+                  >
                     <img
                       src={newsItem.cover_image}
                       alt={newsItem.title}
-                      className="w-full rounded-xl object-cover md:max-h-[250px]"
+                      className="w-1/2 rounded-xl object-cover md:max-h-[250px] md:w-full"
                     />
                     <div className="flex w-full flex-col gap-2">
                       <span className="text-[#757575]">

@@ -12,6 +12,7 @@ export default function Page() {
         <section className="flex flex-col gap-10">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
             <div
+              data-aos="fade-up"
               className={cn(
                 buttonVariants({ variant: 'default' }),
                 'mx-auto w-fit rounded-full border !border-blue-primary !bg-transparent px-4 py-1',
@@ -22,12 +23,20 @@ export default function Page() {
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]"
+          >
             Faça seu agendamento de exame ou consulta através do nosso WhatsApp
             ou telefone fixo.
           </p>
           <div className="flex flex-col gap-10">
-            <div className="flex w-full flex-col gap-4">
+            <div
+              className="flex w-full flex-col gap-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <span className="inline-flex items-center justify-center gap-2 text-lg font-bold text-blue-primary">
                 Ligações e Whatsapp
               </span>
@@ -42,7 +51,11 @@ export default function Page() {
               </a>
             </div>
 
-            <span className="text-center text-base font-bold text-[#757575]">
+            <span
+              data-aos="fade-up"
+              data-aos-delay="400"
+              className="text-center text-base font-bold text-[#757575]"
+            >
               Rua Reverendo Coriolano, 1646 <br /> Jardim Aviação, CEP 19015-070{' '}
               <br />
               Presidente Prudente / SP

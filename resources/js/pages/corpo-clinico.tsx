@@ -12,6 +12,7 @@ export default function Page() {
         <section className="flex flex-col gap-10">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
             <div
+              data-aos="fade-up"
               className={cn(
                 buttonVariants({ variant: 'default' }),
                 'mx-auto w-fit rounded-full border !border-white !bg-transparent px-4 py-1',
@@ -22,13 +23,21 @@ export default function Page() {
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl px-4 text-center text-base font-medium text-white">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="mx-auto max-w-2xl px-4 text-center text-base font-medium text-white"
+          >
             Na Otologic, contamos com uma equipe de especialistas em
             otorrinolaringologia e audiologia, altamente qualificada e dedicada
             ao cuidado integral da sua saúde.
           </p>
           <div className="divide mx-auto grid w-11/12 max-w-7xl grid-cols-1 items-center justify-center gap-10 divide-white sm:grid-cols-2 sm:divide-x-0 md:flex-row lg:grid-cols-3 lg:gap-0 lg:divide-x">
-            <div className="flex flex-col items-center justify-center gap-4">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="flex flex-col items-center justify-center gap-4"
+            >
               <img
                 src="/imgs/corpo-clinico/natalie.png"
                 alt="Dra. Natalie Ravazzi"
@@ -44,7 +53,11 @@ export default function Page() {
                 <span className="text-white">CRM/SP 95.612 | RQE 47.090</span>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              className="flex flex-col items-center justify-center gap-4"
+            >
               <img
                 src="/imgs/corpo-clinico/ana-julia.png"
                 alt="Dra. Ana Júlia Peretti"
@@ -60,7 +73,11 @@ export default function Page() {
                 <span className="text-white">CRM/SP 151.000 | RQE 59.620</span>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="600"
+              className="flex flex-col items-center justify-center gap-4"
+            >
               <img
                 src="/imgs/corpo-clinico/simone.png"
                 alt="Fga. Simone Ravazzi"

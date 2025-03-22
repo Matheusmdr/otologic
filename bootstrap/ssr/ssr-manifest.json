@@ -1,4 +1,8 @@
 {
+  "node_modules/aos/dist/aos.css": [
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
+  ],
   "node_modules/laravel-vite-plugin/inertia-helpers/index.js": [],
   "node_modules/md-editor-rt/lib/style.css": [
     "/build/assets/create-and-edit-users-6_U5E6jG.js",
@@ -14,7 +18,7 @@
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/components/carousel/index.tsx": [
-    "/build/assets/index-CgnLIsO1.js"
+    "/build/assets/index-CNTW6KSL.js"
   ],
   "resources/js/components/data-table/columns/banners-columns.tsx": [
     "/build/assets/index-DgqpNufH.js"
@@ -47,13 +51,15 @@
     "/build/assets/data-table-row-actions-DZ6nLjcS.js"
   ],
   "resources/js/components/expandable-image.tsx": [
-    "/build/assets/nossa-clinica-DdkCgYCI.js"
+    "/build/assets/nossa-clinica-D99RU38H.js"
   ],
   "resources/js/components/footer/components/social-links.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/components/footer/index.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/components/forms/components/create-and-edit-banners.tsx": [
     "/build/assets/create-and-edit-users-6_U5E6jG.js",
@@ -96,25 +102,29 @@
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/header/components/header-desktop.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/components/header/components/header-mobile.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/components/header/components/whatsapp-button.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/components/header/index.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/components/hero-banner/index.tsx": [
-    "/build/assets/index-CgnLIsO1.js"
+    "/build/assets/index-CNTW6KSL.js"
   ],
   "resources/js/components/input-error.tsx": [
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/components/news/index.tsx": [
-    "/build/assets/index-CgnLIsO1.js"
+    "/build/assets/index-CNTW6KSL.js"
   ],
   "resources/js/components/side-nav/components/nav.tsx": [
     "/build/assets/authenticated-layout-OMET_1z0.js"
@@ -126,7 +136,7 @@
     "/build/assets/authenticated-layout-OMET_1z0.js"
   ],
   "resources/js/components/ui/accordion.tsx": [
-    "/build/assets/index-DP7MqHc9.js"
+    "/build/assets/index-Bm4G8lxg.js"
   ],
   "resources/js/components/ui/alert-dialog.tsx": [
     "/build/assets/data-table-row-actions-DZ6nLjcS.js"
@@ -138,10 +148,10 @@
     "/build/assets/button-weNgVMLy.js"
   ],
   "resources/js/components/ui/card.tsx": [
-    "/build/assets/index-CgnLIsO1.js"
+    "/build/assets/index-CNTW6KSL.js"
   ],
   "resources/js/components/ui/carousel.tsx": [
-    "/build/assets/index-CgnLIsO1.js"
+    "/build/assets/index-CNTW6KSL.js"
   ],
   "resources/js/components/ui/checkbox.tsx": [
     "/build/assets/checkbox-DyFoBjLW.js"
@@ -210,7 +220,8 @@
     "/build/assets/authenticated-layout-OMET_1z0.js"
   ],
   "resources/js/layouts/main-layout.tsx": [
-    "/build/assets/main-layout-CBkoy-c-.js"
+    "/build/assets/main-layout-BN7vKQbF.js",
+    "/build/assets/main-layout-CaYgHjVQ.css"
   ],
   "resources/js/lib/utils.ts": [
     "/build/assets/button-weNgVMLy.js"
@@ -273,31 +284,31 @@
     "/build/assets/index-CwNwU4pi.js"
   ],
   "resources/js/pages/agendamento.tsx": [
-    "/build/assets/agendamento-wba25_tg.js"
+    "/build/assets/agendamento-DKQAsSVL.js"
   ],
   "resources/js/pages/auth/login.tsx": [
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/pages/convenios.tsx": [
-    "/build/assets/convenios-DLi-9bAm.js"
+    "/build/assets/convenios-suKNWAZe.js"
   ],
   "resources/js/pages/corpo-clinico.tsx": [
-    "/build/assets/corpo-clinico-wA252b77.js"
+    "/build/assets/corpo-clinico-DIIB4TLp.js"
   ],
   "resources/js/pages/exames/index.tsx": [
-    "/build/assets/index-DP7MqHc9.js"
+    "/build/assets/index-Bm4G8lxg.js"
   ],
   "resources/js/pages/index.tsx": [
-    "/build/assets/index-CgnLIsO1.js"
+    "/build/assets/index-CNTW6KSL.js"
   ],
   "resources/js/pages/nossa-clinica.tsx": [
-    "/build/assets/nossa-clinica-DdkCgYCI.js"
+    "/build/assets/nossa-clinica-D99RU38H.js"
   ],
   "resources/js/pages/noticias/index.tsx": [
-    "/build/assets/index-LTEetzYw.js"
+    "/build/assets/index-CQfG12Ri.js"
   ],
   "resources/js/pages/noticias/noticia/index.tsx": [
-    "/build/assets/index-B2BOFSVX.js"
+    "/build/assets/index-B5fa-pCZ.js"
   ],
   "resources/js/ssr.tsx": [],
   "vendor/tightenco/ziggy/dist/index.js": []

@@ -22,11 +22,18 @@ export default function Page({ banners, news }: Props) {
         <section className="pb-10 md:pb-20 md:pt-0">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-2 md:gap-8">
             <div className="flex flex-col gap-8">
-              <h2 className="text-center text-xl font-medium text-blue-primary">
+              <h2
+                data-aos="fade-up"
+                className="text-center text-xl font-medium text-blue-primary"
+              >
                 REFERÊNCIA <br />
                 <strong className="font-bold">em saúde e bem-estar!</strong>
               </h2>
-              <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]"
+              >
                 A Clínica Otologic é referência em saúde e bem-estar,
                 especializada em Otorrinolaringologia e Audiologia. Oferecemos
                 atendimento completo e personalizado, abrangendo consultas
@@ -41,6 +48,7 @@ export default function Page({ banners, news }: Props) {
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-2 md:gap-8">
             <div className="flex flex-col items-center gap-8">
               <div
+                data-aos="fade-up"
                 className={cn(
                   buttonVariants({ variant: 'default' }),
                   'rounded-full border !border-white !bg-transparent px-4 py-1',
@@ -51,7 +59,11 @@ export default function Page({ banners, news }: Props) {
                 </h2>
               </div>
 
-              <p className="mx-auto max-w-2xl text-center text-base font-medium text-white">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="mx-auto max-w-2xl text-center text-base font-medium text-white"
+              >
                 Contamos com uma equipe de médicas e fonoaudióloga,
                 especialistas e altamente capacitadas para cuidar da sua saúde.
               </p>
@@ -90,6 +102,7 @@ export default function Page({ banners, news }: Props) {
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-2 md:gap-8">
             <div className="flex flex-col items-center gap-8">
               <div
+                data-aos="fade-up"
                 className={cn(
                   buttonVariants({ variant: 'default' }),
                   'rounded-full border !border-blue-primary !bg-transparent px-4 py-1',
@@ -100,7 +113,11 @@ export default function Page({ banners, news }: Props) {
                 </h2>
               </div>
 
-              <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]"
+              >
                 Fique por dentro das curiosidades, doenças, exames e tratamentos
                 para a sua saúde.
               </p>

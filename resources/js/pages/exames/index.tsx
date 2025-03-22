@@ -23,6 +23,7 @@ export default function Page({ exams }: Props) {
         <section className="flex flex-col gap-10">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
             <div
+              data-aos="fade-up"
               className={cn(
                 buttonVariants({ variant: 'default' }),
                 'mx-auto w-fit rounded-full border !border-blue-primary !bg-transparent px-4 py-1',
@@ -33,12 +34,20 @@ export default function Page({ exams }: Props) {
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl px-4 text-center text-base font-medium text-[#757575]">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="mx-auto max-w-2xl px-4 text-center text-base font-medium text-[#757575]"
+          >
             Na Otologic, oferecemos uma ampla gama de exames especializados em
             Otorrinolaringologia e Audiologia, garantindo diagnósticos precisos
             e um atendimento de excelência.
           </p>
-          <div className="mx-auto w-11/12 max-w-7xl">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="mx-auto w-11/12 max-w-7xl"
+          >
             <Accordion type="single" collapsible>
               {exams.map((exam) => (
                 <AccordionItem key={exam.id} value={exam.title}>

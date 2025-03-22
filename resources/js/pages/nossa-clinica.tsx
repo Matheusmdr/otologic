@@ -13,6 +13,7 @@ export default function Page() {
         <section className="flex flex-col gap-10">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-10">
             <div
+              data-aos="fade-up"
               className={cn(
                 buttonVariants({ variant: 'default' }),
                 'mx-auto w-fit rounded-full border !border-blue-primary !bg-transparent px-4 py-1',
@@ -23,7 +24,11 @@ export default function Page() {
               </h2>
             </div>
           </div>
-          <p className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="mx-auto max-w-2xl text-center text-base font-medium text-[#757575]"
+          >
             Localizada próxima ao centro de Presidente Prudente/SP, contamos com
             instalações novas, consultórios amplos, área kids, espaço café e uma
             equipe de recepção pronta para atender nossos pacientes, com muito
