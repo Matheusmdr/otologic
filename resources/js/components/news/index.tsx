@@ -22,7 +22,7 @@ function News({ latestNews }: NewsProps) {
         >
           <img
             src={`${news.cover_image}`}
-            className="max-h-44 max-w-44 basis-1/2"
+            className="max-h-44 max-w-44 basis-1/2 object-cover"
             alt={news.title}
           />
           <CardContent className="flex basis-1/2 flex-col justify-between gap-1 bg-white px-2 py-3 md:gap-4 md:py-4">
